@@ -1,12 +1,30 @@
+// import CanvasImage from "./components/CanvasImage";
+
+// export default function App() {
+//   return (
+//     <div>
+//       <h1 style={{ textAlign: "center" }}>
+//         PNG Drawing Assignment
+//       </h1>
+//       <CanvasImage />
+//     </div>
+//   );
+// }
+
 import CanvasImage from "./components/CanvasImage";
 
 export default function App() {
   return (
-    <div>
-      <h1 style={{ textAlign: "center" }}>
+    <div className="min-h-screen bg-white flex flex-col items-center justify-center px-4">
+
+      <h1 className="text-3xl md:text-4xl font-serif font-bold mb-10 text-center bg-gradient-to-r from-black via-gray-700 to-black text-transparent bg-clip-text">
         PNG Drawing Assignment
       </h1>
-      <CanvasImage />
+
+      <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6 shadow-lg">
+        <CanvasImage />
+      </div>
+
     </div>
   );
 }
