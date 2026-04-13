@@ -5,15 +5,13 @@ type CanvasProps = {
 
 export default function Canvas({ canvasRef, size }: CanvasProps) {
   return (
-    <canvas
-      ref={canvasRef}
-      width={size}
-      height={size}
-      style={{
-        border: "2px solid black",
-        display: "block",
-        margin: "0 auto",
-      }}
-    />
+    <div className="relative inline-block max-w-full overflow-hidden rounded-lg border-2 border-black">
+      <canvas
+        ref={canvasRef}
+        width={size}
+        height={size}
+        className="block max-w-full h-auto mx-auto"
+      />
+    </div>
   );
 }
