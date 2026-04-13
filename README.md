@@ -184,7 +184,7 @@ This project demonstrates how modern web technologies can replicate traditional 
 
 ## 🙌 Author
 
-**[Your Name Here]**
+**Mercyline Nyaboke**
 
 ---
 
