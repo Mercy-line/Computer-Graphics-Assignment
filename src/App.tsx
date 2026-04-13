@@ -1,9 +1,11 @@
-import CanvasImage from "./CanvasImage";
+import CanvasImage from "./components/CanvasImage";
 
 export default function App() {
   return (
-    <div style={{ textAlign: "center" }}>
-      <h1>PNG Drawing Assignment</h1>
+    <div>
+      <h1 style={{ textAlign: "center" }}>
+        PNG Drawing Assignment
+      </h1>
       <CanvasImage />
     </div>
   );
